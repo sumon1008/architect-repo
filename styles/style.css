@@ -1,13 +1,15 @@
-gint
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Poppins:wght@500&family=Work+Sans:wght@700&display=swap');
 
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 .header{
-    
+    width: 1920px;
+    height: 1322px;
     background-color: rgba(255, 144, 14, 0.1);
 }
 .navigation{
@@ -25,12 +27,13 @@ gint
 }
 .menu-bar ul {
     display: flex;
-    margin-top:50px;
-    margin-right:60px ;
+    margin-top:45px;
+    margin-right: 70px;
+    
    
 }
 .menu-bar ul li{
-    padding: 10px;
+    padding: 30px;
     list-style: none;
 }
 .menu-bar ul li a{
@@ -47,15 +50,18 @@ gint
 }
 .banner-title{
     font-family: 'Work Sans', sans-serif;
-    font-size: 20px;
     font-size: 60px;
+   
+    font-weight: 800px;
+
 }
 .banner-description{
     color: #727272;
     font-size: 16px;
-    font-family: 'Work Sans';
-   
+    font-family: 'Work Sans', sans-serif;
     margin-top: 20px;
+    font-weight: 400px;
+    line-height: 10px;
 
 }
 .btn{
@@ -67,7 +73,7 @@ gint
     color: #FFFFFF;
     font-weight: 600;
     font-size: 20px;
-    font-family: 'Work Sans';
+    font-family: 'Work Sans', sans-serif;
     margin: 40px;
    
 
@@ -77,4 +83,234 @@ gint
     height: 700px;
     border-radius: 8px;
 }
+/* main  upper section style part */
+ 
+/* image part  style */
+.main-uper-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 60px;
+
+}
+/*image grid process */
+.images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 300px;
+    margin-top: 130px;
+    row-gap: 25px;
+    column-gap: 25px;
+
+}
+.images img{
+    width: 342px;
+    height: 342px;
+
+}
+ /* image description part style */
+
+.image-about{
+
+  
+}
+/*image title part  style*/
+.image-title-1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    font-family: 'Work Sans', sans-serif;
+    
+   
+    
+}
+.image-title-2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    font-family: 'Work Sans', sans-serif;
+    color:  #FF900E;
+    margin-bottom: 5px;
+}
+ /*button style*/
+.btn2{
+ margin-left: 0px;
+ margin-top: 20px;
+}
+.image-description{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 30px;
+}
+  
+/*main lower section design part*/
+
+.main-lower-section{
+    display: flex;
+    width: 1440px;
+    height: 1059px; 
+    justify-content: center;
+    margin: 0 auto;
+    margin-left: 15rem;
+    margin-top: 130px;
+    column-gap: 120px;
+
+
+}
+
+/*architec title style part */
+.architec-title-section{
+    width: 586px;
+    height: 982px;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+.architec-title{
+    font-weight: 700;
+    font-size: 45px;
+    border-left: #FF900E solid 5px;
+    padding-left: 15px;
+
+}
+.main-architec-description{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    font-family:'Work Sans', sans-serif;
+    margin: 30px 0;
+
+} 
+
+.architec-subtitle{
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+}
+
+/*architec description box style */
+
+.architec-description-1, .architec-description-2, .architec-description-3, .architec-description-4, .architec-description-5{
+    width: 550px;
+    height: 170px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 20px;
+    margin-top: 15px;
+    color: #727272;
+    box-shadow:3px -5px  20px #D0D0D0; 
+    background-color: #FFFFFF;
+    border-radius: 5px; 
+
+}
+
+/*architec banner style part */
+
+.architec-image-section{
+    width: 800px;
+    height: 1059px;
+   
+}
+.architec-banner img{
+    width: 700px;
+    height: 1059px;
+}
+
+
+ /*architec button style part */
+.architec-btn{
+    background-color: #FF900E;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 60px;
+    width: 330px;
+    height: 180px;
+    position: relative;
+    top: -100px;
+    right: 100px;
+}
+ /*lower main section style part */
+
+
+
+.lower-main-section{
+    margin-top: 20rem;
+}
+
+/*lower title style part */
+.lower-title-part{
+    margin-bottom: 80px;
+    margin-left: 240px;
+
+
+}
+
+.lower-title{
+    font-weight: 700;
+    font-size: 45px;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+
+.lower-description{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    font-family:'Work Sans', sans-serif;
+    padding: 10px 0;
+    line-height: 26px;
+
+
+    
+}
+
+/*lower icon section style part */
+
+.lower-icon-part{
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 70px;
+   
+    
+}
+ 
+.lower-icon-part div{
+    width: 230px;
+    height: 230px;
+    border: solid 1px rgb(255, 170, 0);
+    text-align: center;
+
+    
+}
+.lower-icon-part div img{
+    margin-top: 50px;
+}
+
+/*lower icon title section style part */
+.icon-title{
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    font-family:'Work Sans', sans-serif;
+
+}
+.icon-subtitle{
+    font-weight: 600;
+    font-size: 20px;
+    font-family:'Work Sans', sans-serif;
+    color: #727272;
+}
+
+
+
+
+
+
 
