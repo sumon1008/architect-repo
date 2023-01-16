@@ -250,7 +250,7 @@
 
 }
 
-.lower-title{
+.lower-title, .sponsor-title{
     font-weight: 700;
     font-size: 45px;
     font-family: 'Work Sans', sans-serif;
@@ -258,7 +258,7 @@
 }
 
 
-.lower-description{
+.lower-description, .sponsor-subtitle {
     color: #727272;
     font-weight: 400;
     font-size: 16px;
@@ -282,13 +282,16 @@
 }
  
 .lower-icon-part div{
-    width: 230px;
-    height: 230px;
+    width: 200px;
+    height: 200px;
     border: solid 1px rgb(255, 170, 0);
     text-align: center;
+    border-radius: 5px;
 
     
 }
+
+
 .lower-icon-part div img{
     margin-top: 50px;
 }
@@ -309,8 +312,92 @@
 }
 
 
+/*lower icon animation section style part */
+.customer{
+    transition: .3s ease-out;
+
+}
+.customer:hover{
+    background-color: rgba(80, 254, 32, 0.79);
+    transform: scale(1.2);
+    border: solid 6px rgb(255, 170, 0);
+    color: #FFFFFF;
+  
+}
+.email{
+    transition: .5s ease-out ;
+
+}
+.email:hover{
+    background-color: rgb(255, 0, 119);
+    transform: rotate(360deg) scale(1.2) ;
+    border: solid 6px rgb(255, 170, 0);
+    color: #FFFFFF;
+  
+}
+
+.ribon{
+    transition: .5s ease-out;
+}
+.ribon:hover{
+    background-color: rgba(255, 0, 242, 0.79);
+    transform: rotate(360deg) scale(1.2) ;
+    border: solid 6px rgb(255, 170, 0);
+    color: #FFFFFF;
+   
+  
+}
+
+.project{
+    transition: .3s ease-out;
+
+}
 
 
+.project:hover{
+    background-color: rgba(18, 200, 255, 0.79);
+    transform: scale(1.2);
+    border: solid 6px rgb(255, 170, 0);
+    color: #FFFFFF;
+  
+}
 
+/*sponsors section style */
 
+.sponsor-section{
+    text-align: center;
+    margin-top: 170px;
+
+}
+
+.sponsor-icon{
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+
+/*footer section*/
+.footer-section{
+    width: 1440px;
+    height: 150px;
+    background: #FFF4E7;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-left: 205px;
+    margin-top: 150px;
+}
+.footer-description{
+    color: #424242;
+    font-weight: 400;
+    font-size: 20px;
+    font-family:'Work Sans', sans-serif;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    
+   
+}
 
