@@ -415,7 +415,7 @@
 @media screen and (max-width:688px){
 
     .header{
-        width: 800px;
+        width: 700px;
         height: 1000px;
         background-color: rgba(255, 144, 14, 0.1);
         align-items: center;
@@ -423,12 +423,15 @@
     }
     .navigation{
         display: flex;
-        align-items:flex-start; 
-        padding: 0 60px;
+        padding: 0 50px;
+        justify-content: space-evenly;
+        margin-left: 0px;
+        margin-bottom: 50px;
     }
     .header-title{
-        margin-left: 20px;
+        margin-left: 2px;
         font-size: 20px;
+        margin-top: 40px;
     }
    
     .menu-bar ul li{
@@ -436,8 +439,9 @@
     }
 
     .header-banner img{
-        width: 100%;
+        width:100%;
         height: 500px;
+        
        
     }
 
@@ -450,7 +454,7 @@
    .pera{
     width: 540px;
     height: 50px;
-    margin-left: 100px;
+    margin-left: 60px;
     margin-bottom: 20px;
     
 
@@ -474,17 +478,22 @@
   .images{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    margin-left: 20px;
+    margin-left: 16px;
   }
   
    /* architect banner  section*/
 
+ 
    .main-lower-section{
      display: flex;
      flex-direction:column-reverse;
      margin-top: 40rem;
-     margin-left: 20%;
+     margin-left: 7%;
      row-gap: 150px;
+   }
+
+   .architec-btn{
+    margin-left: 80px;
    }
 
 
@@ -492,18 +501,24 @@
    /* lower icon section*/
  .lower-main-section{
     margin-top: 50rem;
+   
+    
+   
     
  }
  
  .lower-title-part{
     text-align: center;
+    margin-left: 50px;
+  
  }
    /* icon style part*/
  .lower-icon-part{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    row-gap: 50px;
-    margin-left: 150px;
+    row-gap: 30px;
+    margin-left: 80px;
+    
 
 
  }
@@ -514,6 +529,8 @@
  .sponsor-icon{
     display: grid;
     grid-template-columns: repeat(2, 1fr) ;
+    row-gap: 20px;
+    column-gap: 10px;
  }
 
 
@@ -524,7 +541,13 @@
     align-items: center;
     width: 800px;
     height: 300px;
-    margin-left: 10px;
+    margin-left: 0px;
+    padding: 20px;
+   
+  }
+  .footer-description{
+    font-size: 15px;
+   
   }
 }
 
